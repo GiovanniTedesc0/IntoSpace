@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PauseFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:scaleX="-1"
+        android:src="@drawable/opera_senza_titolo"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pausebackground">
+
+        <ImageView
+            android:id="@+id/playCtrl"
+            android:layout_width="230dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_play_circle_outline_24"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/volumeCtrl"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_alignLeft="@+id/playCtrl"
+            android:src="@drawable/ic_baseline_volume_up_24"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/homeCtrl"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_alignRight="@id/playCtrl"
+            android:src="@drawable/ic_baseline_home_24"
+            tools:ignore="MissingConstraints" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

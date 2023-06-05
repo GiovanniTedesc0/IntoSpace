@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Into Space</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to home -->
+    <string name="Explanation">Benvenuto nella nostra App!\nAccedi or Registrati per salvare i tuoi progressi</string>
+    <string name="Login">Accedi</string>
+    <string name="Sign_up">Registrati</string>
+
+
+    <!-- Strings related to login -->
+    <string name="Loggin_failed">Loggin fallito, riprova</string>
+    <string name="Doc_error">"Documento del DB non caricato correttamente,riprova"</string>
+    <string name="loggin_successful">"Accesso effettuato correttamente"</string>
+    <string name="Fill_login">"Riempi tutti i campi per accedere "</string>
+    <string name="invalid_password">La password deve avere più di 5 caratteri</string>
+    <string name="Insert_data">Inserisci i tuoi dati</string>
+
+
+    <!-- Strings related to sign up -->
+    <string name="ConfPssw">Conferma password</string>
+    <string name="Fill_signup">"Riempi tutti i campi per registrarti"</string>
+    <string name="Pssw_short">"password troppo corta, min. 6 caratteri"</string>
+    <string name="Pssw_conPssw">"password e conferma password sono diversi"</string>
+    <string name="Conn_check">"Verifica la tua connessione e riprova"</string>
+    <string name="Reg_succ">"Registrazione utente avvenuta con successo"</string>
+    <string name="Reg_fail">"Registrazione fallita"</string>
+
+
+
+
+
+    <!-- Strings related to ranking -->
+    <string name="Name">Nome</string>
+    <string name="Score">Punteggio</string>
+    <string name="Back">Indietro</string>
+    <string name="FetchErr">"Impossibile acquisire dati dal database"</string>
+    <string name="ConnRankErr">"Classifica non disponibile, connessione mancante"</string>
+    <string name="SuccesExport">"Classifica esportata correttamente"</string>
+    <string name="ErrorExport">"Errore nell'esportare la classifica"</string>
+
+
+
+
+
+    <!-- Strings related to Museum -->
+    <string name="Account_succ">"Il tuo account è stato aggiornato con successo"</string>
+    <string name="Off">"Stai giocando OffLine"</string>
+    <string name="Guest">"Sei un ospite"</string>
+    <string name="Gemmcap">"Devi collezionare 50 gemme per sbloccare questo livello"</string>
+    <string name="MoonStory">"Durante gli anni della guerra fredda, tra stati uniti e unione sovietica uno dei tanti obiettivi contesi era il primo viaggio con equipaggio verso la Luna. Il giorno 20 luglio 1969 tre astronauti statunitensi sono partiti per la missione spaziale Apollo 11 per poi atterrare sul suolo lunare il giorno dopo. Aiuta la navicella a raggiungere la luna come l’equipaggio fece quel giorno."</string>
+    <string name="MarsStory">"Il 18 febbraio 2021 il rover Perseverance della NASA ha raggiunto il Pianeta Rosso per cercare tracce di vita. Conduci la navicella su Marte per aiutare il rover a cercare forme di vita."</string>
+    <string name="Startstory">"Ciao mi chiamo Hirooki e sono appassionato di astronomia. Oggi sono in visita al museo della Nasa di Milano. Vieni con me a scoprire le avventure che si celano nello spazio!"</string>
+    <string name="Recap">Ripresa dell\' ultima missione</string>
+
+
+    <!-- Strings related to  Travel-->
+    <string name="GO">"Hai perso!"</string>
+    <string name="YW">"Hai vinto!"</string>
+    <string name="TC">"Continua..."</string>
+    <string name="A">"Atterraggio..."</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Accedi o Registrati</string>
+    <string name="action_sign_in_short">Accedi</string>
+    <string name="welcome">"Benvenuto!"</string>
+    <string name="invalid_username">Nome non valido</string>
+    <string name="login_failed">"Accesso fallito"</string>
+    <string name="Failed_update">"Failed update"</string>
+    <string name="Export">Esporta</string>
+
+</resources>

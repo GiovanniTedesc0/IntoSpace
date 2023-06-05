@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Into Space</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to home -->
+    <string name="Explanation">Welcome to our app!\nSign in or sign up to save your data</string>
+    <string name="Login">Login</string>
+    <string name="Sign_up">Sign up</string>
+
+
+    <!-- Strings related to login -->
+    <string name="Loggin_failed">"Loggin failed, retry"</string>
+    <string name="Doc_error">"DB document error, retry "</string>
+    <string name="loggin_successful">"login successful"</string>
+    <string name="Fill_login">"Fill all the credentials to login "</string>
+    <string name="Insert_data">"Insert your credentials"</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <!-- Strings related to sign up -->
+    <string name="Fill_signup">"Fill all the credentials to sign up "</string>
+    <string name="ConfPssw">Confirm your password</string>
+    <string name="Pssw_short">"password too short, min.6 character"</string>
+    <string name="Pssw_conPssw">"password and confirm password are different"</string>
+    <string name="Conn_check">"check your connection and retry"</string>
+    <string name="Reg_succ">"Registering user successful"</string>
+    <string name="Reg_fail">"Registration failed"</string>
+
+
+
+    <!-- Strings related to ranking -->
+    <string name="Name">Name</string>
+    <string name="Score">Score</string>
+    <string name="Back">Back</string>
+    <string name="FetchErr">"unable to fetch data from database"</string>
+    <string name="ConnRankErr">"Ranking unavailable, connection missing"</string>
+    <string name="SuccesExport">"Ranking exported"</string>
+    <string name="ErrorExport">"Error ranking not exported"</string>
+
+
+    <!-- Strings related to  Museum-->
+    <string name="Account_succ">"your account has been updated correctly"</string>
+    <string name="Off">"You are playing offline"</string>
+    <string name="Guest">"You are a guess"</string>
+    <string name="Gemmcap">"You have to collect at least 50 gem to unlock this level"</string>
+    <string name="MoonStory">"During the cold war, between United Sates of America and soviet union, one of many contested goals was the first moon travel with the crew. The 20th of July 1969 three american astronauts started the Apollo 11 spacial mission to land on moon ground the next day. Help the space ship to reach the moon like the crew did that day"</string>
+    <string name="MarsStory">"On February 18, 2021, NASA's Perseverance rover reached the Red Planet to search for traces of life. Drive the spacecraft to Mars to help the rover searching for life."</string>
+    <string name="Startstory">"Hi, my name is Hirooki and I'm passionate about astronomy. Today I'm visiting the Nasa museum in Milan. Come with me to discover the adventures hidden in space!"</string>
+    <string name="Recap">Resuming last mission progress</string>
+
+    <!-- Strings related to  Travel-->
+    <string name="GO">"Game Over!"</string>
+    <string name="YW">"You Won!"</string>
+    <string name="TC">"To be continued..."</string>
+    <string name="A">"Landing..."</string>
+
+
+    <string name="Failed_update">"update Failed"</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must have more than 5 characters</string>
+    <string name="Export">Export</string>
+</resources>

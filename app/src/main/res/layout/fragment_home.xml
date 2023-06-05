@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    tools:context=".ingress.HomeFragment">
+    <include layout="@layout/menu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/spiegazione"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/Explanation"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:background="@drawable/edittextbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/spiegazione"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginBottom="154dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:textAllCaps="false"
+        android:text="@string/Login"
+        android:background="@drawable/edittextbackground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/singupBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittextbackground"
+        android:text="@string/Sign_up"
+        android:textAllCaps="false"
+        android:layout_marginBottom="80dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

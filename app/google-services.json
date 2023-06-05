@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440126962531",
+    "project_id": "into-space-43f77",
+    "storage_bucket": "into-space-43f77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440126962531:android:ad3c3c20bf2c5535b5f156",
+        "android_client_info": {
+          "package_name": "it.uniba.dib.sms22238"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440126962531-529vshjmrnl3nrh3m9ob7mt756stnlrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJgJOeFTuGnCHFASbPW_T8fpybGIQOxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440126962531-529vshjmrnl3nrh3m9ob7mt756stnlrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
